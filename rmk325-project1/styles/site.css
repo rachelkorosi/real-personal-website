@@ -229,6 +229,10 @@ ul {
     text-align: center;
 }
 
+.contact a {
+    color: white;
+}
+
 footer {
     padding-bottom: 3%;
     background-color: rgb(242, 173, 231);
@@ -555,7 +559,24 @@ button:hover {
     text-align: center;
 }
 
+
 @media (max-width: 750px) {
+   
+    nav li {
+        font-size: medium;
+    }
+
+    img {
+        max-width: 90%;
+    }
     
+    .education {
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+    }
+    .cornell {
+        margin-right: 25%;
+    }
 
 }
