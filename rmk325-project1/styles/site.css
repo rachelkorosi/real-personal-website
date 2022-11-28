@@ -1,0 +1,561 @@
+header {
+    padding: 2%;
+    background-color: rgb(222, 176, 247);
+    color: white;
+}
+
+body {
+    background-color: rgb(146, 230, 183);
+    font-family: sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 5000px;
+    min-width: 500px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+h1 {
+    font-size: 400%;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 320%;
+    text-align: center;
+
+}
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+
+h4, h5 {
+    color: rgb(255, 255, 255);
+    font-size: 180%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.sounddesign h4 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 280%;
+    padding: 1%;
+    padding-left: 0;
+}
+
+
+audio {
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+video {
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: x-large;
+    margin-right: 5%;
+    margin-left: 5%;
+    color: white;
+}
+
+nav ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 2%;
+    color: rgb(45, 96, 82);
+    background-color: rgb(255, 255, 255);
+    font-size: x-large;
+    margin: 0;
+    border: 0px;
+}
+
+nav li a {
+    display: flex;
+    white-space: nowrap;
+    color: rgb(166, 210, 251);
+    font-family: sans-serif;
+    text-decoration: none;
+    
+}
+
+nav li a:hover {
+    background-color: rgb(166, 210, 251);
+    color: white;
+}
+
+ul {
+
+    font-family: sans-serif;
+    font-size: large;
+    font-size: 150%;
+    color: white;
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+
+.homepicture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1024px;
+    min-width: 700px;
+}
+
+.about {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+}
+
+.homepage {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+.education {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 40px;
+
+}
+.education h3 {
+    margin-right: 0;
+    padding: 5%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.education h4 {
+    margin-top: 0;
+    padding: 5%;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.education ul {
+    margin-right: 50px;
+}
+
+.education h4, .education h3, .education ul {
+
+    margin-left: 10%;
+}
+
+.cornell {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+    margin-left: 10%;
+}
+
+.nyu {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 15;
+    margin-right: 15%;
+
+}
+
+.nyu ul {
+    margin-top: 0;
+    padding-top: 0;
+
+}
+
+.education img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 300px;
+    min-width: 300px;
+
+}
+
+.hastings h3 {
+    padding: 2%;
+    text-align: left;
+    margin: 0;
+    padding-top: 4%;
+    padding-bottom: 0;
+    margin-left: 13.5%;
+}
+
+.hastings h4{
+    margin-top: 0;
+    padding-top: 0;
+   text-align: left;
+   margin-left: 15.5%;
+}
+
+.hastings {
+
+    padding-bottom: 2%;
+}
+
+.contact {
+
+    border: none;
+    background-color: rgb(242, 173, 231);
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 2%;
+    text-align: center;
+}
+
+footer {
+    padding-bottom: 3%;
+    background-color: rgb(242, 173, 231);
+}
+
+.gallery {
+
+    background-color: rgb(249, 230, 85);;
+    margin-top: 0;
+    padding: 1px;
+    margin-top: 0;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.gallery h3, .marketing h3, .sounddesign h3, .skillsheading h3 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2%;
+    font-size: x-large;
+    letter-spacing: 10px;
+}
+
+.gallery > * {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    row-gap: 40px;
+    padding: 2%
+}
+
+.marketing {
+    background-color: rgb(161, 218, 250);
+    padding: 1px;
+    color: white;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.marketing h4, .marketing p, .marketing img {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.marketing h2, .gallery h2, .sounddesign h2, .skillsheading h2 {
+    padding: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+
+.sounddesign {
+    background-color: rgb(251, 173, 243);
+
+    padding: 1px;
+    color: white;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    padding-bottom: 3%;
+}
+
+.soundboard {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 700px;
+    min-width: 600px;
+    padding: 1%;
+
+}
+
+.skills {
+
+    background-color: rgb(255, 206, 100);
+    padding: 1px;
+    color: white;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+.skills h3 {
+    padding-bottom: 2%;
+}
+
+.skillslist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 10%;
+    column-gap: 50px;
+
+
+}
+.skillslist > * {
+    
+    border: 8px solid white;
+
+
+}
+
+.skillslist h4 {
+    margin-left: 40px;
+
+}
+
+.comm {
+    flex-shrink: 5;
+    margin-left: 15%;
+
+}
+
+.social {
+
+    margin-right: 12%;
+}
+
+.skillss {
+    text-align: center;
+    font-size: 300%;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+
+cite {
+    color: white;
+    margin-left: 30%;
+}
+
+cite a {
+
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.gallery img {
+    color: black;
+    background-color: black;
+    z-index: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.photosbanner img {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photosbanner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5px;
+    padding-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.wvbr, .keys, .slope, .cornellstore, .axo {
+    padding: 5%;
+    padding-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button {
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 40%;
+}
+
+#next-button {
+    position: absolute;
+    margin-left: 85%;
+    top: 1000px;
+    font-size: 350%;
+    color: rgb(255, 255, 255);
+
+}
+#prev-button {
+    position: absolute;
+    margin-right: 100%;
+    margin-left: 8%;
+    top: 1000px;
+    font-size: 350%;
+    color: rgb(255, 255, 255);
+
+}
+
+.dots {
+    text-align: center;
+    padding-top: 0%;
+    margin-right: 1%;
+}
+
+.dots > * {
+
+    font-size: 300%;
+    color: white;
+    padding-top: 0;
+    cursor:default;
+}
+
+.dotsbg {
+    margin-top: 0%;
+    background-color: rgba(38, 119, 159, 0.41);
+}
+
+.dots > *:hover {
+    opacity: 100%;
+}
+
+.upper {
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.cornellstore {
+    padding-bottom: 17%;
+}
+
+
+.subhead {
+    text-align: center;
+    font-size: 160%;
+    padding-bottom: 0%;
+    letter-spacing: 10px;
+}
+
+.slideshow {
+    background-color: rgb(154, 203, 234);
+    padding: 5%;
+    padding-top: 3%;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.slideshow p, .slideshow h3 {
+    color: rgb(255, 255, 255);
+}
+
+.slideshow img {
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.innerslides {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#next-button2 {
+    color: white;
+    font-size: 350%;
+}
+
+#prev-button2 {
+    color: white;
+    font-size: 350%;
+}
+
+#x-button {
+    color: white;
+    font-size: 200%;
+    padding-top: 0;
+    
+}
+
+.course {
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 0%;
+    margin-top: 0%;
+}
+
+#new {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.courselist {
+    padding-top: 3%;
+    font-size: 175%;
+}
+
+.footerp {
+    text-align: center;
+}
+
+@media (max-width: 750px) {
+    
+
+}
