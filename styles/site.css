@@ -94,7 +94,7 @@ nav li a {
     color: rgb(166, 210, 251);
     font-family: sans-serif;
     text-decoration: none;
-    
+
 }
 
 nav li a:hover {
@@ -338,7 +338,7 @@ footer {
 
 }
 .skillslist > * {
-    
+
     border: 8px solid white;
 
 
@@ -492,7 +492,7 @@ button:hover {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-  
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
@@ -535,7 +535,7 @@ button:hover {
     color: white;
     font-size: 200%;
     padding-top: 0;
-    
+
 }
 
 .course {
@@ -557,11 +557,12 @@ button:hover {
 
 .footerp {
     text-align: center;
+    font-size: 100%;
 }
 
 
 @media (max-width: 750px) {
-   
+
     nav li {
         font-size: medium;
     }
@@ -569,7 +570,7 @@ button:hover {
     img {
         max-width: 90%;
     }
-    
+
     .education {
         flex-wrap: wrap;
         align-items: center;
