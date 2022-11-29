@@ -1,3 +1,3 @@
-# Project 1
+# Personal Website
 
-**Submission Instructions:** Stage, commit, and push your changed files. Then complete the submission form.
+Personal website for Rachel Korosi.
