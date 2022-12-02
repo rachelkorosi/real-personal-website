@@ -10,7 +10,6 @@ body {
     box-sizing: border-box;
     width: 100%;
     max-width: 5000px;
-    min-width: 500px;
     margin: 0 auto;
     padding: 0;
 }
@@ -563,12 +562,27 @@ button:hover {
 
 @media (max-width: 750px) {
 
+    body {
+        max-width: 750px;
+    }
+
     nav li {
         font-size: medium;
     }
 
     img {
-        max-width: 90%;
+        display:block;
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .homepicture {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1024px;
+        min-width: 350px;
     }
 
     .education {
@@ -578,6 +592,11 @@ button:hover {
     }
     .cornell {
         margin-right: 25%;
+    }
+
+    .soundboard {
+        max-width: 700px;
+        min-width: 300px;
     }
 
 }
