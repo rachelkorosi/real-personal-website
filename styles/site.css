@@ -408,6 +408,12 @@ cite a {
 
 }
 
+.photosbanner > * {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .wvbr, .keys, .slope, .cornellstore, .axo {
     padding: 5%;
     padding-top: 1%;
@@ -607,6 +613,7 @@ button:hover {
     }
 
     .comm {
+        border: none;
         margin-left: 20%;
         margin-right: 20%;
         padding: 1%;
@@ -614,24 +621,51 @@ button:hover {
 
 
     .social {
-        margin-left: 20%;
-        margin-right: 20%;
+        border: none;
+        margin-left: 18%;
+        margin-right: 18%;
         padding: 3%;
     }
-    .dots {
-        padding: 0;
-        font-size: large;
-    }
     .innerslides {
+        max-width: 750px;
         display: flex;
         flex-direction: row;
         align-items: center;
         margin-left: 1%;
         margin-right: 1%;
     }
+    #next-button2, #prev-button2, #next-button, #prev-button {
+
+        display: none;
+    }
 
     .photosbanner img {
         width: 70%;
     }
 
+    .photosbanner {
+        display: initial;
+    }
+
+    .photosbanner > * {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        row-gap: 5px;
+
+    }
+
+    .dots {
+        display: none;
+
+    }
+
+    .dotsbg {
+        display: none;
+    }
+
+    .subhead {
+        font-size: 100%;
+        letter-spacing: 2px;
+    }
 }
