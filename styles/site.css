@@ -665,4 +665,9 @@ button:hover {
         font-size: 100%;
         letter-spacing: 2px;
     }
+
+    .about img {
+        width: 50%;
+    }
+
 }
