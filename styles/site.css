@@ -669,5 +669,16 @@ button:hover {
     .about img {
         width: 50%;
     }
+    .skillslist {
+        row-gap: 5px;
+        margin-left: 5%;
+        margin-right: 5%;
 
+    }
+    .skillslist h4 {
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
 }
