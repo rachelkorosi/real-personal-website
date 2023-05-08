@@ -1,11 +1,11 @@
 header {
     padding: 2%;
-    background-color: rgb(222, 176, 247);
+    background-color: rgb(219, 153, 254);
     color: white;
 }
 
 body {
-    background-color: rgb(146, 230, 183);
+    background-color: rgb(121, 228, 167);
     font-family: sans-serif;
     box-sizing: border-box;
     width: 100%;
@@ -90,7 +90,7 @@ nav ul {
 nav li a {
     display: flex;
     white-space: nowrap;
-    color: rgb(166, 210, 251);
+    color: rgb(141, 200, 255);
     font-family: sans-serif;
     text-decoration: none;
 
