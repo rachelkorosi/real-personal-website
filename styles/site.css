@@ -661,6 +661,9 @@ button:hover {
     width: 60%;
 }
 
+
+
+
 @media (max-width: 750px) {
 
     body {
@@ -779,4 +782,8 @@ button:hover {
         margin-right: 5%;
 
     }
+}
+.safari {
+    font-style: italic;
+    font-size: 75%;
 }
