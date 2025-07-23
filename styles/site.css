@@ -124,12 +124,13 @@ p {
 nav ul {
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style: none;
     padding-bottom: 6%;
+    column-gap: 15%;
     color: rgb(45, 96, 82);
     background-color: rgb(255, 255, 255);
-    font-size: x-large;
+    font-size: 150%;
     font-weight: 500;
     margin: 0;
     border: 0px;
@@ -660,7 +661,15 @@ button:hover {
     margin-right: auto;
     width: 60%;
 }
+.safari {
+    font-style: italic;
+}
 
+#s1, #s2, #s3, #s4 {
+    font-size: 85%;
+    margin-top: 0;
+    margin-bottom: 2%;
+}
 
 
 
@@ -782,8 +791,4 @@ button:hover {
         margin-right: 5%;
 
     }
-}
-.safari {
-    font-style: italic;
-    font-size: 75%;
 }
